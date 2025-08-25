@@ -2,9 +2,9 @@
 
 const Main = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <h1 id="white"> -- Content goes here -- </h1>
+    </main>
   )
 }
 
