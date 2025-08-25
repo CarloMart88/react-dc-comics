@@ -7,14 +7,14 @@
 
 #flex{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .container-fluid{
-  width: 100%;
+  display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
-  vertical-align: middle;
+  
 
 }
 
@@ -22,6 +22,7 @@
   list-style: none;
   font-weight: bold;
   color: dimgrey;
+  display: flex;
   
 }
 
@@ -34,11 +35,50 @@ header{
 }
 
 main{
+  width: 100vw;
   background-color: black;
-  margin: 30px 0;
+  margin-top: 30px;
   padding: 50px 0;
 }
 
 #white{
   color: white;
+}
+
+.bg-blue{
+  width: 100vw;
+  height: 15vh;
+  background-color: #0282F9;
+  background-size: cover;
+}
+
+.foot-bg{
+  background-image: url("../img/footer-bg.jpg") ;
+  width: 100vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lista-footer{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 20px 0;
+
+}
+
+#size{
+  width: 20%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.position{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  
 }
