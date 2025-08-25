@@ -83,6 +83,23 @@ const Footer = () => {
           <img src="../img/dc-logo-bg.png" className="dc_button" />
         </div>
       </div>
+
+      <div className="bg-dark">
+        <div className="fifthy">
+          <button><h1>SIGN-UP NOW!</h1></button>
+        </div>
+        <div className="fifthy">
+          <ul className="info">
+            <li><h2 className="color">FOLLOW US</h2></li>
+            <li><img src="../img/footer-facebook.png" /></li>
+            <li><img src="../img/footer-twitter.png" /></li>
+            <li><img src="../img/footer-youtube.png" /></li>
+            <li><img src="../img/footer-pinterest.png" /></li>
+            <li><img src="../img/footer-periscope.png" /></li>
+          </ul>
+        </div>
+      </div>
+
       
     </footer>
   )
