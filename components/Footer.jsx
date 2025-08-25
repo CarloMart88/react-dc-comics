@@ -28,7 +28,57 @@ const Footer = () => {
         </ul>
       </div>
       <div className="foot-bg">
-        <div className="fifthy"></div>
+        <div className="fifthy calc" id="flex">
+
+          <div className="distance">
+            <h2 className="m-20" id="white">DC COMICS </h2>
+            <ul className="gray">
+              <li>Characters </li>
+              <li>Comics </li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+             <h2 className="m-20" id="white">SHOP </h2>
+            <ul className="gray">
+              <li>Shop DC </li>
+              <li>Shop DC Collectibles </li>
+            </ul>
+          </div>
+
+           <div className="distance">
+            <h2 className="m-20" id="white">DC </h2>
+            <ul className="gray">
+              <li>Terms of use </li>
+              <li>Privacy policy (New) </li>
+              <li>Ad Choices</li>
+              <li>Advertising</li>
+              <li>Jobs</li>
+              <li>Subscriptions</li>
+              <li>Talent Workshops</li>
+              <li>CPSC Certificates</li>
+              <li>Ratings</li>
+              <li>Shop Help</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+
+           <div className="distance">
+            <h2 className="m-20" id="white">SITES </h2>
+            <ul className="gray">
+              <li>DC</li>
+              <li>MAD Magazines </li>
+              <li>DC kids</li>
+              <li>DC Universe</li>
+              <li>DC Power Visa</li>
+            </ul>
+          </div>
+
+           
+
+        </div>
         <div className="fifthy">
           <img src="../img/dc-logo-bg.png" className="dc_button" />
         </div>

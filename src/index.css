@@ -58,7 +58,6 @@ main{
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
 }
@@ -87,10 +86,33 @@ main{
 }
 
 .fifthy{
-  width: 50%;
+  width: 50vw;
 }
 
 .dc_button{
-  width: 60%;
+  width: 80%;
   margin-top: -5%;
+}
+
+.gray{
+  color: #858d8d;
+  list-style: none;
+}
+
+.calc{
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 35%;
+  flex-wrap: wrap;
+}
+
+.distance{
+  margin: 0 24px;
+  
+}
+
+
+.m-20{
+  margin-top: 20px;
+  margin-right: 0;
 }
