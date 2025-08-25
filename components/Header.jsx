@@ -9,16 +9,16 @@ const Header = () => {
         </div>
         <div id="">
           <ul className="lista_header" id="flex">
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
+            <li className="bonus">CHARACTERS</li>
+            <li className="bonus">COMICS</li>
+            <li className="bonus">MOVIES</li>
+            <li className="bonus">TV</li>
+            <li className="bonus">GAMES</li>
+            <li className="bonus">COLLECTIBLES</li>
+            <li className="bonus">VIDEOS</li>
+            <li className="bonus">FANS</li>
+            <li className="bonus">NEWS</li>
+            <li className="bonus">SHOP</li>
           </ul>
         </div>
       </div>
