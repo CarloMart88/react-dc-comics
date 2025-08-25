@@ -3,20 +3,22 @@
 const Header = () => {
   return (
     <header>
-      <div className="container-fluid">
-        <div id="logo"></div>
-        <div id="lista_header">
-          <ul id="Hlist">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+      <div className="container-fluid" id="flex">
+        <div id="flex">
+          <img src="../img/dc-logo.png" alt="" />
+        </div>
+        <div id="">
+          <ul className="lista_header" id="flex">
+            <li>CHARACTERS</li>
+            <li>COMICS</li>
+            <li>MOVIES</li>
+            <li>TV</li>
+            <li>GAMES</li>
+            <li>COLLECTIBLES</li>
+            <li>VIDEOS</li>
+            <li>FANS</li>
+            <li>NEWS</li>
+            <li>SHOP</li>
           </ul>
         </div>
       </div>

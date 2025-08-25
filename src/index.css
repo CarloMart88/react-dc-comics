@@ -1,5 +1,30 @@
 *{
   padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  font-family:'Open Sans';
+}
+
+#flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-fluid{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+
+}
+
+.lista_header{
+  list-style: none;
+  font-weight: bold;
+  color: dimgrey;
+  
+}
+
+li{
+  margin:10px;
 }
