@@ -159,11 +159,29 @@ const Main = () => {
   return (
     <main>
       <div className="container">
+
         <div className="row">
           <div className="col-100 h-300 bg-jumbotron"></div>
           <div className="current-series">CURRENT SERIES</div>
         </div>
 
+        <div className="row justify">
+          {comics.map((comic) => {
+            const { id ,series ,thumb , type  } = comic;
+            return ( 
+
+            <div className="col-16" key={id}>
+              <div className="card">
+                <img src={thumb} className="image" alt={type}/>
+              <h3>{series}</h3>
+              </div>
+            </div>
+              
+            );
+            
+          })}
+
+        </div>
       </div>
       
     </main>
