@@ -8,6 +8,7 @@ const Header = () => {
           <img src="../img/dc-logo.png" alt="" />
         </div>
         <div id="">
+          <nav>
           <ul className="lista_header" id="flex">
             <li className="bonus">CHARACTERS</li>
             <li className="bonus">COMICS</li>
@@ -20,6 +21,7 @@ const Header = () => {
             <li className="bonus">NEWS</li>
             <li className="bonus">SHOP</li>
           </ul>
+          </nav>
         </div>
       </div>
     </header>
