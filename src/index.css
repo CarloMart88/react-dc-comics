@@ -39,7 +39,8 @@
   background-color: #0282F9;
   width: 15%;
   height: 50px;
-  top: 42%;
+  top: 55%;
+  left:10%;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -105,7 +106,7 @@ main{
   background-color: black;
   margin-top: 30px;
   padding: 50px 0px;
-  height: 1000px;
+  height: 1150px;
   color: white;
 }
 
@@ -151,6 +152,13 @@ main{
   text-align: center;
   padding-top: 15px;
   
+}
+
+.container-card{
+  margin: 80px 250px ;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .fifthy{

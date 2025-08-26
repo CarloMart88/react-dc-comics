@@ -166,6 +166,7 @@ const Main = () => {
         </div>
 
         <div className="row justify">
+          <div className="container-card">
           {comics.map((comic) => {
             const { id ,series ,thumb , type  } = comic;
             return ( 
@@ -180,7 +181,7 @@ const Main = () => {
             );
             
           })}
-
+          </div>
         </div>
       </div>
       
