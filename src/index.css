@@ -44,7 +44,7 @@
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 17.5px;
+  padding: 12px;
   font-size: large;
   
 }
@@ -62,6 +62,7 @@
 
 .image{
   width: 125px;
+  height: 192px;
 }
 
 
@@ -98,7 +99,7 @@ li{
 }
 
 header{
-  margin: 30px 0px;
+  margin: 30px 250px;
 }
 
 main{

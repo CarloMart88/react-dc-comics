@@ -174,7 +174,7 @@ const Main = () => {
             <div className="col-16" key={id}>
               <div className="card">
                 <img src={thumb} className="image" alt={type}/>
-              <h3>{series}</h3>
+              <h5>{series}</h5>
               </div>
             </div>
               
