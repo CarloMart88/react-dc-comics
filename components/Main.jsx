@@ -161,7 +161,7 @@ const Main = () => {
       <div className="container">
         <div className="row">
           <div className="col-100 h-300 bg-jumbotron"></div>
-          <div className="current-series"></div>
+          <div className="current-series">CURRENT SERIES</div>
         </div>
 
       </div>

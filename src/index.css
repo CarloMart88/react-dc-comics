@@ -36,8 +36,15 @@
 .current-series{
   position: absolute;
   background-color: #0282F9;
-  width: 100px;
-  height: 25px;
+  width: 15%;
+  height: 50px;
+  top: 42%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 17.5px;
+  font-size: large;
+  
 }
 
 
