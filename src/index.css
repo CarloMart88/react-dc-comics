@@ -9,6 +9,43 @@
   display: flex;
 }
 
+.container{
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+.col-100{
+  width: 100%;
+  
+}
+
+.h-300{
+  height: 300px;
+
+
+}
+
+.bg-jumbotron{
+  background-image: url("../public/img/jumbotron.jpg");
+  position: relative;
+
+}
+
+.current-series{
+  position: absolute;
+  background-color: #0282F9;
+  width: 100px;
+  height: 25px;
+}
+
+
+
+.row{
+  display: flex;
+}
+
 .container-fluid{
   display: flex;
   width: 100%;
