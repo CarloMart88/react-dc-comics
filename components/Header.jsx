@@ -21,7 +21,7 @@ const Header = () => {
             <li className="bonus">NEWS</li>
             <li className="bonus">SHOP</li>
           </ul>
-          </nav>
+        </nav>
         </div>
       </div>
     </header>
