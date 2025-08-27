@@ -170,9 +170,9 @@ const Main = () => {
           {comics.map((comic) => {
             
             return ( 
-
+              <div className="col-16" key={comic.id}>
               <Card carta = {comic} />
-              
+              </div>
             );
             
           })}
