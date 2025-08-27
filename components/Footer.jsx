@@ -1,30 +1,55 @@
 
 
 const Footer = () => {
+
+  const lists = [
+    {
+      id: 1,
+      src:"../img/buy-comics-digital-comics.png",
+      txt: "DIGITAL COMICS",
+    }
+    ,
+    {
+      id: 2,
+      src:"../img/buy-comics-merchandise.png",
+      txt: "DC MERCHANDISE"
+    }
+    ,
+    {
+      id: 3,
+      src:"../img/buy-comics-subscriptions.png",
+      txt: "SUBSCRIPTION"
+    }
+    ,
+    {
+      id: 4,
+      src:"../img/buy-comics-shop-locator.png",
+      txt: "COMIC SHOP LOCATOR"
+    }
+    ,
+   {
+      id: 5,
+      src:"../img/buy-dc-power-visa.svg",
+      txt: "DC POWER VISA"
+    }
+    
+  ]
+
+
   return (
     <footer>
       <div className="bg-blue">
         <ul className="lista-footer">
-          <li id="flex">
-            <img src="../img/buy-comics-digital-comics.png" id="size" />
-            <p className="position">DIGITAL COMICS</p>
-          </li>
-          <li id="flex">
-            <img src="../img/buy-comics-merchandise.png" id="size" />
-            <p className="position">DC MERCHANDISE</p>
-          </li>
-          <li id="flex">
-            <img src="../img/buy-comics-subscriptions.png" id="size" />
-            <p className="position">SUBSCRIPTION</p>
-          </li>
-          <li id="flex">
-            <img src="../img/buy-comics-shop-locator.png" id="size" />
-            <p className="position">COMIC SHOP LOCATOR</p>
-          </li>
-          <li id="flex">
-            <img src="../img/buy-dc-power-visa.svg" id="size" />
-            <p className="position">DC POWER VISA</p>
-          </li>
+
+          {lists.map((list) => {
+            const { id , src , txt } = list
+            
+            return  <li id="flex" key={id}>
+                      <img src={src} id="size" />
+                      <p className="position">{txt}</p>
+                    </li>
+          })}
+        
         </ul>
       </div>
       <div className="foot-bg">
