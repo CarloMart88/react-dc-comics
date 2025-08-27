@@ -156,6 +156,22 @@ const Main = () => {
   },
 ];
 
+  const renderComicCard = () => {
+
+    return comics.map((comic) => {
+            
+      return ( 
+              <div className="col-16" key={comic.id}>
+              <Card carta = {comic} />
+              </div>
+            );
+            
+          }
+        )
+      
+      
+    }
+
   return (
     <main>
       <div className="container">
@@ -166,16 +182,9 @@ const Main = () => {
         </div>
 
         <div className="row justify">
+
           <div className="container-card">
-          {comics.map((comic) => {
-            
-            return ( 
-              <div className="col-16" key={comic.id}>
-              <Card carta = {comic} />
-              </div>
-            );
-            
-          })}
+              {renderComicCard()}
           </div>
         </div>
       </div>
