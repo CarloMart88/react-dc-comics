@@ -1,4 +1,4 @@
-
+import Card from "./Card";
 
 const Main = () => {
   const comics = [
@@ -168,15 +168,10 @@ const Main = () => {
         <div className="row justify">
           <div className="container-card">
           {comics.map((comic) => {
-            const { id ,series ,thumb , type  } = comic;
+            
             return ( 
 
-            <div className="col-16" key={id}>
-              <div className="card">
-                <img src={thumb} className="image" alt={type}/>
-              <h5>{series}</h5>
-              </div>
-            </div>
+              <Card carta = {comic} />
               
             );
             
