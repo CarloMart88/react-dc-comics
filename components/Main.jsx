@@ -159,10 +159,10 @@ const Main = () => {
   const renderComicCard = () => {
 
     return comics.map((comic) => {
-            
+            const { id , thumb , series } = comic
       return ( 
               
-              <Card carta = {comic} />
+              <Card carta = {comic} key={id}/>
              
             );
             
